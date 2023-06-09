@@ -1,0 +1,64 @@
+.player-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.player-list{
+    width: 23%;
+}
+.player-tracks{
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.visualisation{
+    width: 70%;
+}
+canvas{
+    margin: 20px 0;
+    border-radius: 20px;
+}
+@media (max-width: 800px) {
+    .player-block{
+        flex-direction: column;
+    }
+    .player-list{
+        width: 100%;
+    }
+    .player-tracks{
+        width: 100%;
+    }
+    .visualisation{
+        width: 100%;
+    }
+    canvas{
+        width: 100%;
+        height: 50%;
+    }
+
+}
+.setAnimation{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    flex-wrap: wrap;
+
+}
+.setAnimationItem{
+    align-items: center;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #722b2b;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 6px 12px;
+    text-align: center;
+    transition: .25s ease;
+}
+.--active{
+    background-color: #ed1212;
+}
