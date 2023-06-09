@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/soviet_tunes/static/css/main.8fa31fce.css",
+    "main.js": "/soviet_tunes/static/js/main.c3cfea68.js",
+    "static/media/Pobeda-Bold.woff2": "/soviet_tunes/static/media/Pobeda-Bold.450da485184fac20c9f7.woff2",
+    "static/media/RedOctober.woff2": "/soviet_tunes/static/media/RedOctober.7875a778644efaa3e1b2.woff2",
+    "static/media/lenin.svg": "/soviet_tunes/static/media/lenin.fcb268396b31b4882e96723715bb8667.svg",
+    "index.html": "/soviet_tunes/index.html",
+    "main.8fa31fce.css.map": "/soviet_tunes/static/css/main.8fa31fce.css.map",
+    "main.c3cfea68.js.map": "/soviet_tunes/static/js/main.c3cfea68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fa31fce.css",
+    "static/js/main.c3cfea68.js"
+  ]
+}
